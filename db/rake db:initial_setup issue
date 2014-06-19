@@ -1,0 +1,48 @@
+Following Quick Guide to install Canvas, I run the command as below:
+$GEM_HOME/bin/bundle exec rake db:initial_setup
+The output is:
+/home/ubuntu/canvas/gems/utf8_cleaner/lib/utf8_cleaner.rb:20:in `<top (required)>': 
+
+iconv will be deprecated in the future, use String#encode instead.
+rake aborted!
+NameError: uninitialized constant PROJ
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:469:in 
+
+`load_missing_constant'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:106:in 
+
+`const_missing_with_dependencies'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:118:in `const_missing'
+/home/ubuntu/canvas/gems/gems/ffi-1.1.5/tasks/test.rake:2:in `<top (required)>'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:171:in `load'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:171:in `block in 
+
+load_with_new_constant_marking'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:547:in 
+
+`new_constants_in'
+/home/ubuntu/canvas/gems/bundler/gems/rails-
+
+e86daf8ff727/activesupport/lib/active_support/dependencies.rb:171:in 
+
+`load_with_new_constant_marking'
+/home/ubuntu/canvas/Rakefile:18:in `block in <top (required)>'
+/home/ubuntu/canvas/Rakefile:18:in `each'
+/home/ubuntu/canvas/Rakefile:18:in `<top (required)>'
+(See full trace by running task with --trace)
+ubuntu@ip-10-254-47-82:~/canvas$
+
+Can anyone help me on this. I will really appreciate.
+
